@@ -16,6 +16,10 @@ import { SiTailwindcss, SiDjango, SiFirebase } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { useKeyboardNav } from '../hooks/useKeyboardNav';
+import fitsenseHome from '../images/fitsense/FitSense-home.png';
+import fitsenseLogged from '../images/fitsense/FitSense-logged-in.png';
+import fitsenseMeals from '../images/fitsense/FitSense-meals.png';
+import fitsenseWorkouts from '../images/fitsense/FitSense-workouts.png';
 
 const Home = () => {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -88,6 +92,13 @@ const Home = () => {
         ],
         technologies: ["React", "JavaScript", "Firebase", "Tailwind CSS"],
         github: "https://github.com/JaylenBradley/FitSense.git",
+        live: "https://fit-sense.vercel.app/",
+        images: [
+          fitsenseHome,
+          fitsenseLogged,
+          fitsenseMeals,
+          fitsenseWorkouts
+        ]
       },
       {
         title: "MindBloom",
@@ -336,7 +347,7 @@ const Home = () => {
                 <h2 className="text-3xl text-white text-decoration-line: underline font-bold mb-6">Education</h2>
                 <div className="space-y-6">
                   <EducationCard education={education} />
-                  <h3 className="text-2xl text-white font-bold mb-4">Organizations & Leadership</h3>
+                  <h3 className="text-2xl text-decoration-line: underline text-white font-bold mb-4">Organizations & Leadership</h3>
                   <div className="grid grid-cols-2 gap-6">
                     {organizations.map((org, index) => (
                       <OrganizationCard key={index} org={org} />

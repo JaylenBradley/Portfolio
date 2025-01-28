@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaInfoCircle } from 'react-icons/fa';
 
 const ProjectCard = ({ project, onClick }) => {
   if (!project) return null;
@@ -10,23 +10,12 @@ const ProjectCard = ({ project, onClick }) => {
     technologies,
     github,
     live,
-    images
   } = project;
 
   return (
     <div 
-      className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow cursor-pointer" 
-      onClick={onClick}
+      className="bg-white rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow"
     >
-      {images && images.length > 0 && (
-        <div className="relative h-48 mb-4">
-          <img 
-            src={images[0]} 
-            alt={title}
-            className="rounded-lg w-full h-full object-cover"
-          />
-        </div>
-      )}
       <h3 className="text-xl font-bold mb-4">{title}</h3>
       <ul className="list-disc list-inside space-y-2 mb-4 text-gray-600">
         {description && description.map((desc, index) => (
@@ -59,11 +48,19 @@ const ProjectCard = ({ project, onClick }) => {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-500 transition-colors"
-            onClick={(e) => e.stopPropagation()}
           >
-            <FaExternalLinkAlt className="w-4 h-4" />
+            <FaExternalLinkAlt className="w-5 h-5" />
             <span>Live Demo</span>
           </a>
+        )}
+        {project.images?.length > 0 && (
+          <button
+            onClick={onClick}
+            className="flex items-center gap-2 px-4 py-2 bg-violet-600 text-white rounded hover:bg-violet-500 transition-colors"
+          >
+            <FaInfoCircle className="w-5 h-5" />
+            <span>Preview</span>
+          </button>
         )}
       </div>
     </div>
