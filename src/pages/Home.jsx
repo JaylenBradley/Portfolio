@@ -82,6 +82,20 @@ const Home = () => {
       }
     ];
 
+    const research = [
+      {
+        title: "Computer Vision for MLB Bat Speed Analysis",
+        advisor: "Dr. Chodosh",
+        date: "Jan 2025 - Present",
+        technologies: ["Python", "Pytorch", "Pandas", "NumPy", "Matplotlib"],
+        highlights: [
+          "Used computer vision and machine learning for recreating a bat estimation pipeline in MLB stadiums",
+          "Worked with video data to explore methods for analyzing bat speed, swing mechanics, and precise motion estimation",
+          "Learned and implemented techniques for object detection and predictive modeling using PyTorch for motion tracking",
+        ]
+      }
+    ];
+
     const pprojects = [
       {
         title: "FitSense",
@@ -227,7 +241,7 @@ const Home = () => {
                   href="#rprojects" 
                   className={getNavLinkClasses('rprojects')}
                 >
-                  Research Projects
+                  Research 
                 </a>
                 <a 
                   href="#pprojects" 
@@ -366,9 +380,11 @@ const Home = () => {
               </section>
 
               <section id="rprojects" className="min-h-screen mb-20">
-                <h2 className="text-3xl text-white text-decoration-line: underline font-bold mb-6">Research Projects</h2>
-                <div className="grid grid-cols-2 gap-6">
-                
+                <h2 className="text-3xl text-white text-decoration-line: underline font-bold mb-6">Research</h2>
+                  <div className="space-y-8">
+                    {research.map((research, index) => (
+                      <ResearchCard key={index} research={research} />
+                    ))}
                 </div>
               </section>
 
