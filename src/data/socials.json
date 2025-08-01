@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/jaylenbradley",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/JaylenBradley",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:jaylenbradley81@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

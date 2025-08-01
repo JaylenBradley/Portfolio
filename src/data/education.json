@@ -1,0 +1,28 @@
+{
+  "education": [
+    {
+      "name": "Villanova University",
+      "href": "https://www1.villanova.edu/university.html",
+      "title": "MS in Computer Science",
+      "logo": "/villanova-university-logo.png",
+      "start": "Aug 2025",
+      "end": "May 2028",
+      "description": []
+    },
+    {
+      "name": "Villanova University",
+      "href": "https://www1.villanova.edu/university.html",
+      "title": "BS in Computer Science & Statistics",
+      "logo": "/villanova-university-logo.png",
+      "start": "Aug 2023",
+      "end": "May 2027",
+      "description": [
+        "Co-President of Villanova Software Engineers",
+        "Delta Chi Fraternity Scholarship Chair",
+        "Member of Villanova Programming Team",
+        "3-time recipient of the Dean's Honor List",
+        "Honors student"
+      ]
+    }
+  ]
+}

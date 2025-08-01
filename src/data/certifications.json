@@ -1,0 +1,26 @@
+{
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "obtained": "Jun 2024",
+      "expires": "Jun 2027",
+      "href": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "image": "/aws-solutions-architect.png",
+      "description": [
+        "Validated expertise in designing distributed systems on AWS.",
+        "Covered security, reliability, and cost optimization."
+      ]
+    },
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "obtained": "May 2023",
+      "expires": "",
+      "href": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "image": "/google-data-analytics.png",
+      "description": [
+        "Completed 8-course program covering data cleaning, analysis, and visualization.",
+        "Used tools like SQL, R, and Tableau."
+      ]
+    }
+  ]
+}

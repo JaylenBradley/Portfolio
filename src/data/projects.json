@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "name": "Intervu",
+      "description": "AI-powered career planning and interview platform",
+      "image": "",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "React",
+        "PostgreSQL",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://useintervu.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/JaylenBradley/Intervu-TechDev",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "DevCollab",
+      "description": "description",
+      "image": "",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "React",
+        "MongoDB",
+        "Firebase",
+        "TailwindCSS",
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/JaylenBradley/DevCollab",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "FitSense",
+      "description": "description",
+      "image": "",
+      "tags": [
+        "JavaScript",
+        "React",
+        "Firebase",
+        "TailwindCSS",
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://fit-sense.vercel.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/JaylenBradley/FitSense",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}

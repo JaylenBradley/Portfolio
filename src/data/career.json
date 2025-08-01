@@ -1,0 +1,44 @@
+{
+  "career": [
+    {
+      "name": "SEO (Sponsors for Educational Opportunity",
+      "href": "https://tech.seo-usa.org/",
+      "role": "Tech Developer Intern",
+      "location": "Remote, NY",
+      "logo": "",
+      "start": "May 2025",
+      "end": "Present",
+      "description": [
+        "desc"
+      ]
+    },
+    {
+      "name": "Villanova University",
+      "href": "",
+      "role": "Machine Learning Research Assistant",
+      "location": "Villanova, PA",
+      "logo": "/villanova-university-logo.png",
+      "start": "Jan 2025",
+      "end": "Present",
+      "description": [
+        "Researched computer vision and ML to rebuild a bat-tracking pipeline, analyzing videos for swing mechanics and motion",
+        "Learned and implemented techniques for object detection and predictive modeling using PyTorch for motion tracking"
+      ]
+    },
+    {
+      "name": "Optima",
+      "href": "",
+      "role": "Software Engineer",
+      "location": "Villanova, PA",
+      "logo": "",
+      "start": "Jan 2025",
+      "end": "May 2025",
+      "description": [
+        "Developed a screen time app using SwiftUI, allowing users to earn screen time through 50+ tasks promoting self-accountability",
+        "Collaborated with a team of 3+ developers to design backend services in Flask, ensuring seamless integration with Google Firebase",
+        "Collaborated with the startup’s owner to align app features with business goals for an upcoming beta release targeting 3000+ users",
+        "Optimized API calls, resulting in a 30% increase to data retrieval speed and a reduction in errors by 20%"
+      ]
+    }
+  ]
+}
