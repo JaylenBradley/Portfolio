@@ -1,26 +1,98 @@
 {
   "certifications": [
     {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "obtained": "Jun 2024",
-      "expires": "Jun 2027",
-      "href": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
-      "image": "/aws-solutions-architect.png",
-      "description": [
-        "Validated expertise in designing distributed systems on AWS.",
-        "Covered security, reliability, and cost optimization."
-      ]
+      "name": "DeepLearning.AI: Deep Learning Specialization",
+      "issuing_company": "DeepLearning.AI",
+      "obtained": "Jun 2025",
+      "href": "https://drive.google.com/file/d/1Dq-UCZ-Is83ku7wsEktCH4DfqiDmOE1q/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/specialization/X77PDIOZPEOR",
+      "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "Google Data Analytics Professional Certificate",
-      "obtained": "May 2023",
-      "expires": "",
-      "href": "https://www.coursera.org/professional-certificates/google-data-analytics",
-      "image": "/google-data-analytics.png",
-      "description": [
-        "Completed 8-course program covering data cleaning, analysis, and visualization.",
-        "Used tools like SQL, R, and Tableau."
-      ]
+      "name": "DeepLearning.AI: Sequence Models",
+      "issuing_company": "DeepLearning.AI",
+      "obtained": "Jun 2025",
+      "href": "https://drive.google.com/file/d/12ZegpiaLjsK7yjMfTxtXw6StCxB_ZWT2/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/0OSHBC1LU6RW",
+      "image": "/deeplearningai_logo.jpeg"
+    },
+    {
+      "name": "DeepLearning.AI: Convolutional Neural Networks",
+      "issuing_company": "DeepLearning.AI",
+      "obtained": "May 2025",
+      "href": "https://drive.google.com/file/d/14x6Yd_PprcQfFtcSROy-45AjYL-iBgdW/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/F65XRSLOTKO0",
+      "image": "/deeplearningai_logo.jpeg"
+    },
+    {
+      "name": "DeepLearning.AI: Structuring Machine Learning Projects",
+      "issuing_company": "DeepLearning.AI",
+      "obtained": "Apr 2025",
+      "href": "https://drive.google.com/file/d/16mo9rPoR8l1ynnhgmWj5PbaQcfUFuxCc/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/RXFII7QMP6YQ",
+      "image": "/deeplearningai_logo.jpeg"
+    },
+    {
+      "name": "DeepLearning.AI: Improving Deep Neural Networks - Hyperparameter Tuning, Regularization and Optimization",
+      "issuing_company": "DeepLearning.AI",
+      "obtained": "Apr 2025",
+      "href": "https://drive.google.com/file/d/1wxVKPJNZ7C35Ox1Y3wLoENZqwsOA_5O0/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/8ENYZ8KK4NVQ",
+      "image": "/deeplearningai_logo.jpeg"
+    },
+    {
+      "name": "DeepLearning.AI: Neural Networks and Deep Learning",
+      "issuing_company": "DeepLearning.AI",
+      "obtained": "Apr 2025",
+      "href": "https://drive.google.com/file/d/1s27z4FvoJ2GfhPPsDGVXoGt8KtcZ_T3Z/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/E5O2IMNWPLRY",
+      "image": "/deeplearningai_logo.jpeg"
+    },
+    {
+      "name": "Stanford University: Machine Learning Specialization",
+      "issuing_company": "Stanford University",
+      "partner": "DeepLearning.AI",
+      "obtained": "Apr 2025",
+      "href": "https://drive.google.com/file/d/1IijXTVcDTlJ4igCakrEP7BYgczGdQjQr/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/specialization/KN5A04EFQ7VR",
+      "image": "/stanford_logo.png"
+    },
+    {
+      "name": "Stanford University: Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "issuing_company": "Stanford University",
+      "partner": "DeepLearning.AI",
+      "obtained": "Apr 2025",
+      "href": "https://drive.google.com/file/d/1gMSUY2HzEEmdIQy7WLeiztR7OJYNmB0H/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/PFKUR19VPIIF",
+      "image": "/stanford_logo.png"
+    },
+    {
+      "name": "Stanford University: Advanced Learning Algorithms",
+      "issuing_company": "Stanford University",
+      "partner": "DeepLearning.AI",
+      "obtained": "Mar 2025",
+      "href": "https://drive.google.com/file/d/10YKE9E3Q3BSkJ3Vg9Mz3v1Nf_YJQLGL1/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/1EJ9BDBHZ8JW",
+      "image": "/stanford_logo.png"
+    },
+    {
+      "name": "Stanford University: Supervised Machine Learning: Regression and Classification",
+      "issuing_company": "Stanford University",
+      "partner": "DeepLearning.AI",
+      "obtained": "Mar 2025",
+      "href": "https://drive.google.com/file/d/1IMjQY0iZ5SKhiTLE_VPITCx2u6PmRDwB/view?usp=sharing",
+      "credential_link": "https://www.coursera.org/account/accomplishments/verify/S77H0GLIQVOW",
+      "image": "/stanford_logo.png"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuing_company": "Amazon Web Services (AWS)",
+      "obtained": "Jan 2025",
+      "expires": "Jan 2028",
+      "href": "https://drive.google.com/file/d/1EJKtHbeLOAO90BenSbSavqjMXgVv03E6/view?usp=sharing",
+      "credential_link": "https://aws.amazon.com/verification",
+      "validation_number": "f628f527309e4bbd93fe3314310b8264",
+      "image": "/aws_logo.jpeg"
     }
   ]
 }

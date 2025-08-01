@@ -1,123 +1,93 @@
 import { useState } from "react";
 import headshot from "../../public/Professional-Headshot.jpg";
+import Icon from "../components/Icon";
+import Socials from "../components/Socials";
+import Projects from "../components/Projects";
+import certifications from "../data/certifications.json";
+import careerData from "../data/career.json";
+import education from "../data/education.json"
 
-// Dummy data
-const workData = [
-  {
-    id: 1,
-    company: "TechCorp",
-    title: "Software Engineer",
-    description: "Developed scalable web applications.",
-    image: headshot,
-    dates: "2022 - Present",
-    bullets: ["Led frontend team", "Optimized performance", "Mentored interns"],
-  },
-];
-const educationData = [
-  {
-    id: 1,
-    school: "State University",
-    title: "B.S. Computer Science",
-    description: "Studied software engineering and algorithms.",
-    image: headshot,
-    dates: "2018 - 2022",
-    bullets: ["Dean's List", "Research Assistant", "Graduated Cum Laude"],
-  },
-];
-const projects = [
-  {
-    id: 1,
-    title: "Portfolio Website",
-    description: "Personal portfolio built with React and Tailwind.",
-    image: headshot,
-    tech: ["React", "Tailwind", "Vite"],
-    website: "#",
-    source: "#",
-    bullets: ["Responsive design", "Dynamic content", "Fast load times"],
-    screenshots: [headshot, headshot],
-  },
-  {
-    id: 2,
-    title: "Task Manager",
-    description: "A productivity app for managing tasks.",
-    image: headshot,
-    tech: ["React", "Redux", "Node.js"],
-    website: "#",
-    source: "#",
-    bullets: ["Real-time sync", "User authentication", "Customizable UI"],
-    screenshots: [headshot],
-  },
-];
+const workData = careerData.career;
+const educationData = education.education;
 
-export default function Header() {
+export default function Home() {
   const [toggle, setToggle] = useState("work");
-  const [modal, setModal] = useState(null);
-  const [screenshotIdx, setScreenshotIdx] = useState(0);
 
-  const data = toggle === "work" ? workData : educationData;
+  const getDate = (item) =>
+    item.start && item.end
+      ? `${item.start} - ${item.end}`
+      : item.dates || item.obtained || "";
+
+  const getRole = (item) =>
+    item.role || item.title || (item.issuing_company && item.name) || "";
+
+  const getImage = (item) =>
+    item.logo || item.image || headshot;
+
+  const getBullets = (item) =>
+    Array.isArray(item.description)
+      ? item.description
+      : item.bullets || (item.description ? [item.description] : []);
+
+  const getName = (item) =>
+    item.name || item.school || item.company || "";
+
+  const getHref = (item) =>
+    item.href || "";
 
   return (
-    <div className="bg-background items-center p-4">
+    <main className="flex flex-col items-center min-h-screen bg-background px-4">
       {/* Intro Section */}
-      <div className="flex flex-col md:flex-row w-full max-w-4xl items-center mb-8">
-        <div className="flex-1 flex flex-col gap-4">
-          <h1 className="text-primary text-4xl font-bold">Hey I'm Jay</h1>
-          <p className="text-text text-lg">
+      <div className="flex flex-col md:flex-row items-center gap-8 max-w-3xl w-full py-16">
+        {/* Left: Bio and Buttons */}
+        <div className="flex-1 flex flex-col items-center md:items-start gap-4">
+          <h1 className="text-4xl font-bold text-accent flex items-center gap-2">
+            Hey, I'm Jay <span role="img" aria-label="wave">👋</span>
+          </h1>
+          <p className="text-lg text-text text-center md:text-left">
             Placeholder bio: Passionate developer with experience in building modern web applications and a keen interest in UI/UX.
           </p>
-          <div className="flex gap-2 mt-2">
+          <div className="flex items-center gap-2">
             <a
-              href="https://drive.google.com/placeholder"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded bg-accent text-background font-bold"
+              className="px-4 py-2 rounded bg-card text-text hover:bg-primary font-bold flex items-center gap-2 mt-2"
+              style={{ height: "40px" }} // force same height as socials
             >
+              <Icon name="file-down" className="size-4" />
               Resume
             </a>
-            <a
-              href="https://linkedin.com/placeholder"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 rounded bg-primary text-card font-bold"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://github.com/placeholder"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 rounded bg-card text-primary border border-primary font-bold"
-            >
-              GitHub
-            </a>
-            <a
-              href="mailto:placeholder@email.com"
-              className="px-4 py-2 rounded bg-secondary text-text font-bold"
-            >
-              Email
-            </a>
+            <div style={{ height: "40px", display: "flex", alignItems: "center" }}>
+              <Socials variant="button" />
+            </div>
           </div>
         </div>
+        {/* Right: Headshot */}
         <img
           src={headshot}
           alt="Jay's Headshot"
-          className="w-40 h-40 rounded-full object-cover border-4 border-border ml-0 md:ml-8 mt-8 md:mt-0"
+          className="w-40 h-40 rounded-full object-cover border-4 border-border shadow-lg"
         />
       </div>
 
       {/* Work/Education Toggle */}
-      <div className="flex w-full max-w-3xl mb-6">
+      <div className="px-1 py-1 bg-card rounded-2xl flex w-full max-w-3xl mb-3">
         <button
-          className={`flex-1 py-3 rounded-l-lg bg-card text-text font-bold border border-border ${
-            toggle === "work" ? "bg-accent text-background" : ""
+          className={`flex-1 py-3 rounded-2xl cursor-pointer font-bold transition ${
+            toggle === "work"
+              ? "bg-primary text-text"
+              : "bg-card text-primary"
           }`}
           onClick={() => setToggle("work")}
         >
           Work
         </button>
         <button
-          className={`flex-1 py-3 rounded-r-lg bg-card text-text font-bold border border-border ${
-            toggle === "education" ? "bg-accent text-background" : ""
+          className={`flex-1 py-3 rounded-2xl cursor-pointer font-bold transition ${
+            toggle === "education"
+              ? "bg-primary text-text"
+              : "bg-card text-primary"
           }`}
           onClick={() => setToggle("education")}
         >
@@ -125,135 +95,95 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Experience/Education Section */}
-      <div className="w-full max-w-3xl flex flex-col gap-4 mb-8">
-        {data.map((item) => (
-          <div
-            key={item.id}
-            className="flex flex-col md:flex-row bg-card rounded-lg shadow p-6 border-2 border-border"
-          >
-            <img
-              src={item.image}
-              alt={item.title || item.school}
-              className="w-20 h-20 rounded-full object-cover border-2 border-border mr-0 md:mr-6 mb-4 md:mb-0"
-            />
-            <div className="flex-1">
-              <h2 className="text-primary text-2xl font-bold mb-1">
-                {item.title || item.school}
-              </h2>
-              <div className="text-muted mb-2">{item.dates}</div>
-              <p className="text-text mb-2">{item.description}</p>
-              <ul className="list-disc pl-5 text-muted">
-                {item.bullets.map((b, i) => (
-                  <li key={i}>{b}</li>
-                ))}
-              </ul>
+      {/* Work/Education Data */}
+      <div className="w-full max-w-3xl flex flex-col gap-0 mb-8 relative">
+        {(toggle === "work" ? workData : educationData).map((item, idx, arr) => (
+          <div key={idx} className="flex flex-row items-start relative min-h-[120px]">
+            {/* Timeline: image + line */}
+            <div className="flex flex-col items-center mr-6 relative z-10">
+              {item.href ? (
+                <a href={item.href} target="_blank" rel="noopener noreferrer">
+                  {item.logo || item.image ? (
+                    <img
+                      src={item.logo || item.image}
+                      alt={item.name || item.school || item.company}
+                      className="w-20 h-20 rounded-full object-contain border-2 border-primary shadow"
+                    />
+                  ) : (
+                    <div className="w-20 h-20 rounded-full bg-muted flex items-center justify-center border-2 border-primary shadow">
+                      {/* Simple user SVG icon */}
+                      <svg width="40" height="40" fill="none" viewBox="0 0 24 24" className="text-accent">
+                        <circle cx="12" cy="8" r="4" fill="currentColor" />
+                        <rect x="4" y="16" width="16" height="6" rx="3" fill="currentColor"/>
+                      </svg>
+                    </div>
+                  )}
+                </a>
+              ) : (
+                item.logo || item.image ? (
+                  <img
+                    src={item.logo || item.image}
+                    alt={item.name || item.school || item.company}
+                    className="w-20 h-20 rounded-full object-contain border-2 border-primary shadow"
+                  />
+                ) : (
+                  <div className="w-20 h-20 rounded-full bg-text flex items-center justify-center border-2 border-primary shadow">
+                    <svg width="40" height="40" fill="none" viewBox="0 0 24 24" className="text-muted">
+                      <circle cx="12" cy="8" r="4" fill="currentColor" />
+                      <rect x="4" y="16" width="16" height="6" rx="3" fill="currentColor"/>
+                    </svg>
+                  </div>
+                )
+              )}
+
+              {/* Vertical line: only if not last item */}
+              {idx < arr.length - 1 && (
+                <div
+                  className="w-1 h-full"
+                  style={{
+                    background: "var(--color-primary)",
+                    minHeight: "40px",
+                    marginTop: "0.5rem",
+                  }}
+                />
+              )}
+            </div>
+
+            {/* Content */}
+            <div className="flex-1 pb-8">
+              <div className="text-primary text-xs font-semibold mb-1">
+                {item.start && item.end
+                  ? `${item.start} - ${item.end}`
+                  : item.dates || item.obtained || ""}
+              </div>
+              <div className="text-2xl font-bold text-text mb-1">
+                {item.name || item.school || item.company}
+              </div>
+              <div className="text-muted text-base mb-2">
+                {item.role || item.title || (item.issuing_company && item.name) || ""}
+              </div>
+              {Array.isArray(item.description) && item.description.length > 0 && (
+                <ul className="list-disc pl-5 text-text/50">
+                  {item.description.map((b, i) => (
+                    <li key={i}>{b}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         ))}
       </div>
 
       {/* Featured Projects */}
-      <div className="w-full max-w-4xl mb-4 flex items-center justify-between">
-        <h2 className="text-primary text-2xl font-bold">Featured Projects</h2>
-        <a href="#" className="text-accent font-bold">
-          View More
-        </a>
-      </div>
-      <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        {projects.map((proj) => (
-          <div
-            key={proj.id}
-            className="bg-card rounded-lg shadow p-6 border-2 border-border flex flex-col"
-          >
-            <img
-              src={proj.image}
-              alt={proj.title}
-              className="w-full h-32 object-cover rounded mb-4"
-            />
-            <h3 className="text-primary text-xl font-bold mb-1">{proj.title}</h3>
-            <p className="text-text mb-2">{proj.description}</p>
-            <div className="flex flex-wrap gap-2 mb-4">
-              {proj.tech.map((tech, i) => (
-                <span
-                  key={i}
-                  className="px-3 py-1 rounded-full bg-muted text-background text-xs font-semibold"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-            <div className="flex gap-2 mt-auto">
-              <a
-                href={proj.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3 py-1 rounded bg-accent text-background font-bold text-xs"
-              >
-                Website
-              </a>
-              <a
-                href={proj.source}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3 py-1 rounded bg-primary text-card font-bold text-xs"
-              >
-                Source
-              </a>
-              <button
-                className="px-3 py-1 rounded bg-secondary text-text font-bold text-xs"
-                onClick={() => {
-                  setModal(proj);
-                  setScreenshotIdx(0);
-                }}
-              >
-                More Info
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Modal for More Info */}
-      {modal && (
-        <div className="fixed inset-0 bg-background bg-opacity-80 flex items-center justify-center z-50">
-          <div className="bg-card rounded-lg shadow-lg p-8 max-w-lg w-full relative">
-            <button
-              className="absolute top-2 right-2 text-muted"
-              onClick={() => setModal(null)}
-            >
-              &#10005;
-            </button>
-            <h3 className="text-primary text-xl font-bold mb-2">{modal.title}</h3>
-            <ul className="list-disc pl-5 text-text mb-4">
-              {modal.bullets.map((b, i) => (
-                <li key={i}>{b}</li>
-              ))}
-            </ul>
-            <div className="flex items-center justify-center mb-4">
-              <button
-                className="px-2 py-1 text-muted"
-                disabled={screenshotIdx === 0}
-                onClick={() => setScreenshotIdx(screenshotIdx - 1)}
-              >
-                &#8592;
-              </button>
-              <img
-                src={modal.screenshots[screenshotIdx]}
-                alt={`Screenshot ${screenshotIdx + 1}`}
-                className="w-40 h-40 object-cover rounded mx-4"
-              />
-              <button
-                className="px-2 py-1 text-muted"
-                disabled={screenshotIdx === modal.screenshots.length - 1}
-                onClick={() => setScreenshotIdx(screenshotIdx + 1)}
-              >
-                &#8594;
-              </button>
-            </div>
-          </div>
+      <section className="w-full max-w-4xl mb-12">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-primary text-2xl font-bold">Featured Projects</h2>
+          <a href="/projects" className="text-accent font-bold">
+            View All Projects
+          </a>
         </div>
-      )}
-    </div>
+        <Projects limit={2} />
+      </section>
+    </main>
   );
-};
+}

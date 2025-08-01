@@ -1,27 +1,15 @@
-import Markdown from "react-markdown";
+import ReactMarkdown from "react-markdown";
 import Icon from "./Icon";
+import { Badge } from "./ui/Badge";
+import {
+  Card,
+  CardHeader,
+  CardContent,
+  CardFooter,
+  CardTitle,
+} from "./ui/Card";
 
-// Dummy Badge and Card components for illustration
-function Badge({ children, className }) {
-  return <span className={`rounded bg-muted px-1 py-0 text-xs ${className}`}>{children}</span>;
-}
-function Card({ children, className }) {
-  return <div className={`bg-card rounded-lg shadow border-2 border-border flex flex-col ${className}`}>{children}</div>;
-}
-function CardHeader({ children }) {
-  return <div className="mb-2">{children}</div>;
-}
-function CardContent({ children, className }) {
-  return <div className={`flex flex-col gap-2 ${className}`}>{children}</div>;
-}
-function CardFooter({ children, className }) {
-  return <div className={`flex h-full flex-col items-start justify-between gap-4 ${className}`}>{children}</div>;
-}
-function CardTitle({ children }) {
-  return <h3 className="text-primary text-xl font-bold mb-1">{children}</h3>;
-}
 
-// Props: { project }
 export function ProjectCard({ project }) {
   const { name, href, description, image, tags, links } = project;
 
@@ -42,9 +30,15 @@ export function ProjectCard({ project }) {
       </CardHeader>
       <CardContent>
         <CardTitle>{name}</CardTitle>
-        <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted">
+        <ReactMarkdown
+          components={{
+            p: ({ node, ...props }) => (
+              <p className="prose max-w-full text-pretty font-sans text-xs text-muted" {...props} />
+            ),
+          }}
+        >
           {description}
-        </Markdown>
+        </ReactMarkdown>
       </CardContent>
       <CardFooter>
         {tags && tags.length > 0 && (
