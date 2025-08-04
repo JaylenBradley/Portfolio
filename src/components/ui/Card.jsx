@@ -6,7 +6,7 @@ const Card = React.forwardRef(function Card({ className, ...props }, ref) {
     <div
       ref={ref}
       className={cn(
-        "rounded-xl border bg-card text-card-foreground shadow",
+        "rounded-xl border border-primary text-card-foreground shadow",
         className
       )}
       {...props}
@@ -37,7 +37,7 @@ const CardTitle = React.forwardRef(function CardTitle({ className, ...props }, r
 });
 CardTitle.displayName = "CardTitle";
 
-const CardDescription = React.forwardRef(function CardDescription({ className, ...props }, ref) {
+const CardSummary = React.forwardRef(function CardDescription({ className, ...props }, ref) {
   return (
     <p
       ref={ref}
@@ -46,7 +46,7 @@ const CardDescription = React.forwardRef(function CardDescription({ className, .
     />
   );
 });
-CardDescription.displayName = "CardDescription";
+CardSummary.displayName = "CardSummary";
 
 const CardContent = React.forwardRef(function CardContent({ className, ...props }, ref) {
   return (
@@ -69,7 +69,7 @@ CardFooter.displayName = "CardFooter";
 export {
   Card,
   CardContent,
-  CardDescription,
+  CardSummary,
   CardFooter,
   CardHeader,
   CardTitle,

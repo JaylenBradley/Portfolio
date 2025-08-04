@@ -1,13 +1,14 @@
-import { lazy, Suspense } from "react";
-import dynamicIconImports from "lucide-react/dynamicIconImports";
+import * as LucideIcons from "lucide-react";
 
-const fallback = <div style={{ background: "#ddd", width: 24, height: 24 }} />;
+function toPascalCase(str) {
+  return str
+    .split("-")
+    .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
+    .join("");
+}
 
 export default function Icon({ name, ...props }) {
-  const LucideIcon = lazy(dynamicIconImports[name]);
-  return (
-    <Suspense fallback={fallback}>
-      <LucideIcon {...props} />
-    </Suspense>
-  );
+  const iconName = toPascalCase(name);
+  const LucideIcon = LucideIcons[iconName] || LucideIcons["Circle"];
+  return <LucideIcon {...props} />;
 }

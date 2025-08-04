@@ -2,8 +2,15 @@
   "projects": [
     {
       "name": "Intervu",
-      "description": "AI-powered career planning and interview platform",
-      "image": "",
+      "summary": "AI-powered career planning and interview platform",
+      "description": [
+        "Developed an AI-powered career planning platform, featuring interview practice, resume optimization, and personalized roadmaps",
+        "Integrated Google Gemini and GCP Speech-to-Text APIs for voice recognition, content generation, and interview feedback",
+        "Designed and managed RESTful APIs and a PostgreSQL database, leveraging JSON storage for handling of AI-generated content",
+        "Utilized Swagger UI for API documentation and devised unit tests, enhancing API reliability and development workflow",
+        "Leveraged Vercel Analytics to monitor frontend performance and user engagement, maintaining a ~28% bounce rate"
+      ],
+      "image": "/Intervu-home.png",
       "tags": [
         "Python",
         "FastAPI",
@@ -28,7 +35,13 @@
     },
     {
       "name": "DevCollab",
-      "description": "description",
+      "summary": "Developer collaboration platform",
+      "description": [
+        "Created a platform for developers to post projects and connect with others to build, contribute to, and showcase technical work",
+        "Streamlined backend logic by linking accounts via Firebase UIDs, reducing API errors by 40% and simplifying authorization",
+        "Optimized MongoDB queries for efficient pagination and UID-based lookups, reducing average API response time by ~25%\n",
+        "Utilized Insomnia to test and debug RESTful APIs, ensuring reliable endpoint behavior throughout development"
+      ],
       "image": "",
       "tags": [
         "JavaScript",
@@ -49,8 +62,12 @@
     },
     {
       "name": "FitSense",
-      "description": "description",
-      "image": "",
+      "summary": "Tracking workouts, set goals, and create custom fitness plans",
+      "description": [
+        "Implemented scalable Firebase Authentication, supporting up to 1,000 users with 99.9% uptime for seamless and secure access",
+        "Optimized Firestore operations, reducing workout plan CRUD operation latency by 15% and supporting 50+ concurrent users"
+      ],
+      "image": "/Fitsense-home.jpeg",
       "tags": [
         "JavaScript",
         "React",

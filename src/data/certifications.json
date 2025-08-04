@@ -1,7 +1,7 @@
 {
   "certifications": [
     {
-      "name": "DeepLearning.AI: Deep Learning Specialization",
+      "name": "Deep Learning Specialization",
       "issuing_company": "DeepLearning.AI",
       "obtained": "Jun 2025",
       "href": "https://drive.google.com/file/d/1Dq-UCZ-Is83ku7wsEktCH4DfqiDmOE1q/view?usp=sharing",
@@ -9,7 +9,7 @@
       "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "DeepLearning.AI: Sequence Models",
+      "name": "Sequence Models",
       "issuing_company": "DeepLearning.AI",
       "obtained": "Jun 2025",
       "href": "https://drive.google.com/file/d/12ZegpiaLjsK7yjMfTxtXw6StCxB_ZWT2/view?usp=sharing",
@@ -17,7 +17,7 @@
       "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "DeepLearning.AI: Convolutional Neural Networks",
+      "name": "Convolutional Neural Networks",
       "issuing_company": "DeepLearning.AI",
       "obtained": "May 2025",
       "href": "https://drive.google.com/file/d/14x6Yd_PprcQfFtcSROy-45AjYL-iBgdW/view?usp=sharing",
@@ -25,7 +25,7 @@
       "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "DeepLearning.AI: Structuring Machine Learning Projects",
+      "name": "Structuring Machine Learning Projects",
       "issuing_company": "DeepLearning.AI",
       "obtained": "Apr 2025",
       "href": "https://drive.google.com/file/d/16mo9rPoR8l1ynnhgmWj5PbaQcfUFuxCc/view?usp=sharing",
@@ -33,7 +33,7 @@
       "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "DeepLearning.AI: Improving Deep Neural Networks - Hyperparameter Tuning, Regularization and Optimization",
+      "name": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
       "issuing_company": "DeepLearning.AI",
       "obtained": "Apr 2025",
       "href": "https://drive.google.com/file/d/1wxVKPJNZ7C35Ox1Y3wLoENZqwsOA_5O0/view?usp=sharing",
@@ -41,7 +41,7 @@
       "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "DeepLearning.AI: Neural Networks and Deep Learning",
+      "name": "Neural Networks and Deep Learning",
       "issuing_company": "DeepLearning.AI",
       "obtained": "Apr 2025",
       "href": "https://drive.google.com/file/d/1s27z4FvoJ2GfhPPsDGVXoGt8KtcZ_T3Z/view?usp=sharing",
@@ -49,7 +49,7 @@
       "image": "/deeplearningai_logo.jpeg"
     },
     {
-      "name": "Stanford University: Machine Learning Specialization",
+      "name": "Machine Learning Specialization",
       "issuing_company": "Stanford University",
       "partner": "DeepLearning.AI",
       "obtained": "Apr 2025",
@@ -58,7 +58,7 @@
       "image": "/stanford_logo.png"
     },
     {
-      "name": "Stanford University: Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
       "issuing_company": "Stanford University",
       "partner": "DeepLearning.AI",
       "obtained": "Apr 2025",
@@ -67,7 +67,7 @@
       "image": "/stanford_logo.png"
     },
     {
-      "name": "Stanford University: Advanced Learning Algorithms",
+      "name": "Advanced Learning Algorithms",
       "issuing_company": "Stanford University",
       "partner": "DeepLearning.AI",
       "obtained": "Mar 2025",
@@ -76,7 +76,7 @@
       "image": "/stanford_logo.png"
     },
     {
-      "name": "Stanford University: Supervised Machine Learning: Regression and Classification",
+      "name": "Supervised Machine Learning: Regression and Classification",
       "issuing_company": "Stanford University",
       "partner": "DeepLearning.AI",
       "obtained": "Mar 2025",

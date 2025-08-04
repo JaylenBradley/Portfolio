@@ -1,27 +1,30 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-background: rgb(225 1 1);
-  --color-border: rgb(1 1 1);
-  --color-card: rgb(1 1 1);
-  --color-primary: rgb(0 120 212);
-  --color-accent: rgb(255 193 7);
-  --color-text: rgb(20 20 20);
-  --color-muted: rgb(150 150 150);
+  --font-serif: "__Calistoga_137a1a", "__Calistoga_Fallback_137a1a", serif;
+  --color-background: oklch(13.04% 0.0243 265.94);
+  --color-border: oklch(43.2% 0.232 292.759);
+  --color-card: oklch(20.8% 0.042 265.755);
+  --color-primary: oklch(27.92% 0.0267 260.02);
+  --color-accent: oklch(60.6% 0.25 292.717);
+  --color-text: oklch(100% 0 0);
+  --color-muted: oklch(44.6% 0.03 256.802);
 }
 
 body {
   background-color: var(--color-background);
+  font-family: var(--font-serif), serif;
 }
 
 @media (prefers-color-scheme: dark) {
   @theme {
-    --color-background: oklch(12.9% 0.042 264.695);
+    --color-background: oklch(13.04% 0.0243 265.94);
     --color-border: oklch(43.2% 0.232 292.759);
     --color-card: oklch(20.8% 0.042 265.755);
-    --color-primary: oklch(44.6% 0.043 257.281);
+    --color-primary: oklch(27.92% 0.0267 260.02);
     --color-accent: oklch(60.6% 0.25 292.717);
     --color-text: oklch(100% 0 0);
-    --color-muted: rgb(200 200 200);
+    --color-muted: oklch(44.6% 0.03 256.802);
   }
 }

@@ -13,9 +13,11 @@ export default function Socials({ variant = "icon" }) {
             href={item.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 gap-2 curspr-pointer rounded font-bold flex items-center bg-card text-primary hover:text-text"
+            className="
+              px-2 py-2 gap-2 curspr-pointer rounded font-bold
+              flex items-center text-text/50 hover:text-text transition"
           >
-            <Icon name={item.icon} className="size-4" />
+            <Icon name={item.icon} className="size-5" />
           </a>
         ))}
       </div>
