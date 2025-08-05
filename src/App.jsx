@@ -5,13 +5,15 @@ import Error from "./pages/Error.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
-import MeteorBackground from "./components/MeteorBackground.jsx";
+
 import Projects from "./pages/Projects.jsx";
 import ScrollToTop from "./components/ScrollToTop";
+import AnimatedBackground from "./components/AnimatedBackground.jsx";
 
 const App = () => (
   <Router>
     <ScrollToTop />
+    <AnimatedBackground/>
     <div className="flex flex-col min-h-screen">
         <Header />
         <Routes>
