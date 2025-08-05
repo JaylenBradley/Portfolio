@@ -2,7 +2,7 @@
 
 A clean, minimal portfolio website built with React & Tailwind CSS
 
-> Built this for fun and decided to open source it properly after getting lots of requests for permission to copy it!
+> Built this for fun and decided to open source it!
 
 ## Live Demo
 
