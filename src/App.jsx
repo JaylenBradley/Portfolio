@@ -15,11 +15,11 @@ const App = () => (
     <div className="flex flex-col min-h-screen">
         <Header />
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/certifications" element={<Certifications />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<Error/>} />
+            <Route path="/" element={<Home />}/>
+            <Route path="/projects" element={<Projects />}/>
+            <Route path="/certifications" element={<Certifications />}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="*" element={<Error/>}/>
         </Routes>
         <Footer />
     </div>
