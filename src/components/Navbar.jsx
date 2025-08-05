@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
@@ -15,7 +16,7 @@ export default function Header() {
           <ul className="flex gap-10 sm:gap-8">
             {navLinks.map((nav, id) => (
               <li key={id} className="link text-text hover:text-accent transition">
-                <a href={nav.href}>{nav.name}</a>
+                <Link to={nav.href}>{nav.name}</Link>
               </li>
             ))}
           </ul>

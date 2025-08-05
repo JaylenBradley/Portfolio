@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom"
 import { useState } from "react";
 import Icon from "../components/Icon";
 import Certifications from "../components/Certifications.jsx";
 import Projects from "../components/Projects";
+import ReactIcon from "../components/ReactIcon.jsx";
 import Socials from "../components/Socials";
 import careerData from "../data/career.json";
 import education from "../data/education.json"
+import skills from "../data/skills.json";
 
 const workData = careerData.career;
 const educationData = education.education;
@@ -145,24 +148,34 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Featured Projects */}
+      <section className="w-full max-w-4xl mb-12">
+        <h2 className="text-text text-2xl font-bold mb-4">Skills</h2>
+        <div className="flex flex-wrap gap-6">
+          {skills.map((skill) => (
+            <div key={skill.name} className="flex flex-col items-center">
+              <ReactIcon name={skill.icon} className="size-10 text-accent mb-2" />
+              <span className="text-text text-sm font-medium">{skill.name}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="w-full max-w-4xl mb-12">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-text text-2xl font-bold">Featured Projects</h2>
-          <a href="/projects" className="text-text hover:text-accent font-bold transition">
+          <Link to="/projects" className="text-text hover:text-accent font-bold transition">
             View All Projects &rarr;
-          </a>
+          </Link>
         </div>
         <Projects limit={2} />
       </section>
 
-      {/* Featured Certifications */}
       <section className="w-full max-w-4xl mb-12">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-text text-2xl font-bold">Recent Certifications</h2>
-          <a href="/certifications" className="text-text hover:text-accent font-bold transition">
+          <Link to="/certifications" className="text-text hover:text-accent font-bold transition">
             View All Certifications &rarr;
-          </a>
+          </Link>
         </div>
         <Certifications limit={2} />
       </section>

@@ -1,0 +1,23 @@
+[
+  { "name": "Python", "icon": "python" },
+  { "name": "JavaScript", "icon": "js" },
+  { "name": "SQL", "icon": "sql" },
+  { "name": "HTML/CSS", "icon": "htmlcss" },
+
+  { "name": "TensorFlow", "icon": "tensorflow" },
+  { "name": "PyTorch", "icon": "pytorch" },
+  { "name": "NumPy", "icon": "numpy" },
+  { "name": "Matplotlib", "icon": "matplotlib" },
+
+  { "name": "FastAPI", "icon": "fastapi" },
+  { "name": "Node.js", "icon": "node" },
+  { "name": "Express.js", "icon": "express" },
+
+  { "name": "React", "icon": "react" },
+
+  { "name": "PostgreSQL", "icon": "postgresql" },
+  { "name": "MongoDB", "icon": "mongodb" },
+  { "name": "Firebase", "icon": "firebase" },
+
+  { "name": "Tailwind CSS", "icon": "tailwind" }
+]

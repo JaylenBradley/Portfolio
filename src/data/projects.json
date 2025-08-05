@@ -42,7 +42,7 @@
         "Optimized MongoDB queries for efficient pagination and UID-based lookups, reducing average API response time by ~25%\n",
         "Utilized Insomnia to test and debug RESTful APIs, ensuring reliable endpoint behavior throughout development"
       ],
-      "image": "",
+      "image": "/wip_project.png",
       "tags": [
         "JavaScript",
         "Node.js",
