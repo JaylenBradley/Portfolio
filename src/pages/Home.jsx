@@ -149,7 +149,9 @@ export default function Home() {
         <div className="flex flex-wrap gap-6">
           {skills.map((skill) => (
             <div key={skill.name} className="flex flex-col items-center">
-              <ReactIcon name={skill.icon} className="size-10 text-accent mb-2" />
+              <div className="w-16 h-16 flex items-center justify-center mb-2">
+                <ReactIcon name={skill.icon} className="size-10 text-accent" />
+              </div>
               <span className="text-text text-sm font-medium">{skill.name}</span>
             </div>
           ))}
