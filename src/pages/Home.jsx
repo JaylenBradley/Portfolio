@@ -98,12 +98,10 @@ export default function Home() {
                       className="w-20 h-20 rounded-full object-contain border-2 border-primary shadow"
                     />
                   ) : (
-                    <div className="w-20 h-20 rounded-full bg-muted flex items-center justify-center border-2 border-primary shadow">
-                      <svg width="40" height="40" fill="none" viewBox="0 0 24 24" className="text-accent">
-                        <circle cx="12" cy="8" r="4" fill="currentColor" />
-                        <rect x="4" y="16" width="16" height="6" rx="3" fill="currentColor"/>
-                      </svg>
-                    </div>
+                    <div className="
+                      w-20 h-20 rounded-full bg-muted flex
+                      items-center justify-center border-2 border-primary shadow"
+                    />
                   )}
                 </a>
               ) : (
@@ -114,12 +112,10 @@ export default function Home() {
                     className="w-20 h-20 rounded-full object-contain border-2 border-primary shadow"
                   />
                 ) : (
-                  <div className="w-20 h-20 rounded-full bg-text flex items-center justify-center border-2 border-primary shadow">
-                    <svg width="40" height="40" fill="none" viewBox="0 0 24 24" className="text-muted">
-                      <circle cx="12" cy="8" r="4" fill="currentColor" />
-                      <rect x="4" y="16" width="16" height="6" rx="3" fill="currentColor"/>
-                    </svg>
-                  </div>
+                  <div className="
+                    w-20 h-20 rounded-full bg-text flex
+                    items-center justify-center border-2 border-primary shadow"
+                  />
                 )
               )}
             </div>
