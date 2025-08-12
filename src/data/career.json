@@ -26,7 +26,7 @@
       "end": "Present",
       "description": [
         "Researched computer vision and ML to rebuild a bat-tracking pipeline, analyzing videos for swing mechanics and motion",
-        "Learned and implemented techniques for object detection and predictive modeling using PyTorch for motion tracking"
+        "Learned and implemented techniques for object detection and predictive modeling using the DETR model and PyTorch"
       ]
     },
     {
