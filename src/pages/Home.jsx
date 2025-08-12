@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         {/* Right: Headshot */}
         <img
-          src="/Professional-Headshot.jpg"
+          src="/SEO-Tech_Dev-Jaylen_Bradley-1.jpg"
           alt="Jay's Headshot"
           className="w-40 h-40 rounded-full object-cover border-2 border-primary shadow-lg"
         />
