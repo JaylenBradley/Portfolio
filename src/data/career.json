@@ -10,9 +10,9 @@
       "end": "Present",
       "description": [
         "Led a 3-person full-stack development team as project lead and scrum master, guiding development from inception to deployment",
-        "Awarded Best UX award and tied for Best Overall Project among 28 competing teams",
+        "Developed an award-winning project, securing Best UX and tying for Best Overall among 28 competing teams",
         "Designed prompt engineering strategies for Google Gemini (Generative Language API), enhancing response accuracy by 20%",
-        "Implemented Retrieval-Augmented Generation (RAG) to provide relevant responses based on a given knowledge base",
+        "Implemented Retrieval-Augmented Generation (RAG), resulting in ~16% more accurate and contextually relevant responses",
         "Completed 300+ hours of software engineering training focused on data structures, algorithms, and full-stack web development"
       ]
     },
@@ -38,10 +38,9 @@
       "start": "Jan 2025",
       "end": "May 2025",
       "description": [
-        "Developed a screen time app using SwiftUI, allowing users to earn screen time through 50+ tasks promoting self-accountability",
-        "Collaborated with a team of 3+ developers to design backend services in Flask, ensuring seamless integration with Google Firebase",
-        "Collaborated with the startup’s owner to align app features with business goals for an upcoming beta release targeting 3000+ users",
-        "Optimized API calls, resulting in a 30% increase to data retrieval speed and a reduction in errors by 20%"
+        "Engineered Flask-based backend services in collaboration with 3+ developers, seamlessly integrating Google Firebase",
+        "Optimized API calls, resulting in a 30% increase to data retrieval speed and a reduction in errors by 20%",
+        "Collaborated with the startup’s owner to align app features with business goals for an upcoming beta release targeting 3000+ users"
       ]
     }
   ]

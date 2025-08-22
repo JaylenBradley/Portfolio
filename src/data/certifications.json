@@ -1,6 +1,13 @@
 {
   "certifications": [
     {
+      "name": "Best UX Project Award",
+      "issuing_company": "SEO (Sponsors for Educational Opportunity",
+      "obtained": "Aug 2025",
+      "credential_link": "https://drive.google.com/file/d/1Ng3C3R-Tvg8n1SlTLkUgRiRWWF3q6qVq/view?usp=sharing",
+      "image": "/seo_logo.jpg"
+    },
+    {
       "name": "Deep Learning Specialization",
       "issuing_company": "DeepLearning.AI",
       "obtained": "Jun 2025",

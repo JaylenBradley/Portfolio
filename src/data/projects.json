@@ -7,8 +7,8 @@
         "Developed an AI-powered career planning platform, featuring interview practice, resume optimization, and personalized roadmaps",
         "Integrated Google Gemini and GCP Speech-to-Text APIs for voice recognition, content generation, and interview feedback",
         "Designed and managed RESTful APIs and a PostgreSQL database, leveraging JSON storage for handling of AI-generated content",
-        "Utilized Swagger UI for API documentation and devised unit tests, enhancing API reliability and development workflow",
-        "Leveraged Vercel Analytics to monitor frontend performance and user engagement, maintaining a ~28% bounce rate"
+        "Leveraged Vercel Analytics to monitor frontend performance and user engagement, maintaining a ~28% bounce rate",
+        "Utilized Swagger UI for API documentation and designed 10+ unit tests, reducing API-related bugs by 12%"
       ],
       "image": "/Intervu-home.png",
       "tags": [
@@ -17,6 +17,7 @@
         "JavaScript",
         "React",
         "PostgreSQL",
+        "Google Gemini",
         "Firebase",
         "TailwindCSS"
       ],
@@ -34,12 +35,44 @@
       ]
     },
     {
+      "name": "AutoAudit",
+      "summary": "AI-powered financial operations platform",
+      "description": [
+        "Developed an AI-powered expense management platform to automate expense categorization and policy enforcement",
+        "Leveraged React Query for efficient data caching, reducing request load times by ~17% and improving application responsiveness",
+        "Integrated OpenAI's GPT-5-nano model for expense categorization, using a validation layer to prevent hallucination"
+      ],
+      "image": "/AutoAudit-home.png",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "React",
+        "PostgreSQL",
+        "OpenAI",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://use-autoaudit.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/JaylenBradley/AutoAudit",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "DevCollab",
       "summary": "Developer collaboration platform",
       "description": [
         "Created a platform for developers to post projects and connect with others to build, contribute to, and showcase technical work",
         "Streamlined backend logic by linking accounts via Firebase UIDs, reducing API errors by 40% and simplifying authorization",
-        "Optimized MongoDB queries for efficient pagination and UID-based lookups, reducing average API response time by ~25%\n",
+        "Optimized MongoDB queries for efficient pagination and UID-based lookups, reducing average API response time by ~15%",
         "Utilized Insomnia to test and debug RESTful APIs, ensuring reliable endpoint behavior throughout development"
       ],
       "image": "/wip_project.png",
