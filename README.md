@@ -2,8 +2,6 @@
 
 A clean, minimal portfolio website built with React & Tailwind CSS
 
-> Built this for fun and decided to open source it!
-
 ## Live Demo
 
 Check it out here: **[https://jaylen-bradley-portfolio.vercel.app](https://jaylen-bradley-portfolio.vercel.app)**
