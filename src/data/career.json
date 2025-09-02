@@ -1,22 +1,6 @@
 {
   "career": [
     {
-      "name": "SEO (Sponsors for Educational Opportunity",
-      "href": "https://tech.seo-usa.org/",
-      "role": "Tech Developer Intern",
-      "location": "Remote, NY",
-      "logo": "/seo_logo.jpg",
-      "start": "May 2025",
-      "end": "Present",
-      "description": [
-        "Led a 3-person full-stack development team as project lead and scrum master, guiding development from inception to deployment",
-        "Developed an award-winning project, securing Best UX and tying for Best Overall among 28 competing teams",
-        "Designed prompt engineering strategies for Google Gemini (Generative Language API), enhancing response accuracy by 20%",
-        "Implemented Retrieval-Augmented Generation (RAG), resulting in ~16% more accurate and contextually relevant responses",
-        "Completed 300+ hours of software engineering training focused on data structures, algorithms, and full-stack web development"
-      ]
-    },
-    {
       "name": "Villanova University",
       "href": "",
       "role": "Machine Learning Research Assistant",
@@ -27,6 +11,22 @@
       "description": [
         "Researched computer vision and ML to rebuild a bat-tracking pipeline, analyzing videos for swing mechanics and motion",
         "Learned and implemented techniques for object detection and predictive modeling using the DETR model and PyTorch"
+      ]
+    },
+    {
+      "name": "SEO (Sponsors for Educational Opportunity",
+      "href": "https://tech.seo-usa.org/",
+      "role": "Software Engineer Intern",
+      "location": "Remote, NY",
+      "logo": "/seo_logo.jpg",
+      "start": "May 2025",
+      "end": "Aug 2025",
+      "description": [
+        "Led a 3-person full-stack development team as project lead and scrum master, guiding development from inception to deployment",
+        "Developed an award-winning project, securing Best UX and tying for Best Overall among 28 competing teams",
+        "Designed prompt engineering strategies for Google Gemini (Generative Language API), enhancing response accuracy by 20%",
+        "Implemented Retrieval-Augmented Generation (RAG), resulting in ~16% more accurate and contextually relevant responses",
+        "Completed 300+ hours of software engineering training focused on data structures, algorithms, and full-stack web development"
       ]
     },
     {
