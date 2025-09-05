@@ -39,7 +39,7 @@
       "summary": "AI-powered financial operations platform",
       "description": [
         "Developed an AI-powered expense management platform to automate expense categorization and policy enforcement",
-        "Leveraged React Query for efficient data caching, reducing request load times by ~17% and improving application responsiveness",
+        "Leveraged React Query for efficient data caching, reducing request load times by ~17% and improving responsiveness",
         "Integrated OpenAI's GPT-5-nano model for expense categorization, using a validation layer to prevent hallucination"
       ],
       "image": "/AutoAudit-home.png",
