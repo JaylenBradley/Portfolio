@@ -1,6 +1,20 @@
 {
   "career": [
     {
+      "name": "Finlit",
+      "href": "",
+      "role": "Software Engineer",
+      "location": "Villanova, PA",
+      "logo": "",
+      "start": "Sep 2025",
+      "end": "Present",
+      "description": [
+        "Led a 4-person team, using FastAPI and SQLAlchemy to design and implement core RESTful APIs for application services",
+        "Optimized PostgreSQL queries by implementing pagination via SQLAlchemy, reducing data request load times by ~15%",
+        "Utilized Pydantic validation to enforce data integrity and tested API endpoints with Insomnia, ensuring reliable backend behavior"
+      ]
+    },
+    {
       "name": "Villanova University",
       "href": "",
       "role": "Machine Learning Research Assistant",
@@ -9,7 +23,8 @@
       "start": "Jan 2025",
       "end": "Present",
       "description": [
-        "Researched computer vision and ML to rebuild a bat-tracking pipeline, analyzing videos for swing mechanics and motion",
+        "Collaborated with the Pittsburgh Pirates on computer vision research, focusing on pose estimation for pitcher arm angle analysis",
+        "Implemented ViTPose object detection to extract skeletal keypoints, correlating arm angle metrics with pitching performance",
         "Learned and implemented techniques for object detection and predictive modeling using the DETR model and PyTorch"
       ]
     },
@@ -38,9 +53,8 @@
       "start": "Jan 2025",
       "end": "May 2025",
       "description": [
-        "Engineered Flask-based backend services in collaboration with 3+ developers, seamlessly integrating Google Firebase",
-        "Optimized API calls, resulting in a 30% increase to data retrieval speed and a reduction in errors by 20%",
-        "Collaborated with the startup’s owner to align app features with business goals for an upcoming beta release targeting 3000+ users"
+        "Developed Flask backend in collaboration with 3+ developers, enabling seamless Google Firebase integration for 3000+ users",
+        "Optimized API calls, resulting in a ~30% increase to data retrieval speed and a reduction in errors by ~20%"
       ]
     }
   ]

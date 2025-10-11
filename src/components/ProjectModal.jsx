@@ -30,7 +30,7 @@ export default function ProjectModal({ project, open, onClose }) {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
       <div
         ref={modalRef}
-        className="bg-background rounded-xl shadow-xl max-w-xl w-full mx-4 p-6 pt-10 relative animate-fadeIn"
+        className="bg-background rounded-xl shadow-xl max-w-xl w-full mx-4 p-6 pt-2 relative animate-fadeIn"
         role="dialog"
         aria-modal="true"
         aria-label={project.title}

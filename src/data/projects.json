@@ -67,28 +67,28 @@
       ]
     },
     {
-      "name": "DevCollab",
-      "summary": "Developer collaboration platform",
+      "name": "Aegis Realty",
+      "summary": "AI-powered real estate investment and property management platform",
       "description": [
-        "Created a platform for developers to post projects and connect with others to build, contribute to, and showcase technical work",
-        "Streamlined backend logic by linking accounts via Firebase UIDs, reducing API errors by 40% and simplifying authorization",
-        "Optimized MongoDB queries for efficient pagination and UID-based lookups, reducing average API response time by ~15%",
-        "Utilized Insomnia to test and debug RESTful APIs, ensuring reliable endpoint behavior throughout development"
+        "Integrated Google Gemini to analyze property data and generate plain-language investment evaluations using Cap Rate metrics",
+        "Developed a SQLAlchemy script to extract, transform, and load RentCast API data into PostgreSQL, automating data ingestion",
+        "Optimized queries for efficient pagination and implemented caching with TanStack Query, reducing average load times by ~25%"
       ],
-      "image": "/wip_project.png",
+      "image": "/Aegis-Realty-Home.png",
       "tags": [
+        "Python",
+        "FastAPI",
         "JavaScript",
-        "Node.js",
-        "Express.js",
         "React",
-        "MongoDB",
+        "PostgreSQL",
+        "Google Gemini",
         "Firebase",
         "TailwindCSS"
       ],
       "links": [
         {
           "name": "Source",
-          "href": "https://github.com/JaylenBradley/DevCollab",
+          "href": "https://github.com/CSC4790-Fall2025-Org/Aegis-Realty",
           "icon": "github"
         }
       ]
