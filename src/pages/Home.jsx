@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         {/* Right: Headshot */}
         <img
-          src="/SEO-Tech_Dev-Jaylen_Bradley-1.jpg"
+          src="/headshot.jpg"
           alt="Jay's Headshot"
           className="w-40 h-40 rounded-full object-cover border-2 border-primary shadow-lg"
         />
@@ -95,7 +95,7 @@ export default function Home() {
                     <img
                       src={item.logo || item.image}
                       alt={item.name || item.school || item.company}
-                      className="w-20 h-20 rounded-full object-contain border-2 border-primary shadow"
+                      className="w-20 h-20 rounded-full object-cover border-2 border-primary shadow"
                     />
                   ) : (
                     <div className="
@@ -109,7 +109,7 @@ export default function Home() {
                   <img
                     src={item.logo || item.image}
                     alt={item.name || item.school || item.company}
-                    className="w-20 h-20 rounded-full object-contain border-2 border-primary shadow"
+                    className="w-20 h-20 rounded-full object-cover border-2 border-primary shadow"
                   />
                 ) : (
                   <div className="
