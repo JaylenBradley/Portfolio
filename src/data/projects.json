@@ -74,7 +74,7 @@
         "Developed a SQLAlchemy script to extract, transform, and load RentCast API data into PostgreSQL, automating data ingestion",
         "Optimized queries for efficient pagination and implemented caching with TanStack Query, reducing average load times by ~25%"
       ],
-      "image": "/Aegis-Realty-Home.png",
+      "image": "/aegis-realty-home.png",
       "tags": [
         "Python",
         "FastAPI",
@@ -86,6 +86,11 @@
         "TailwindCSS"
       ],
       "links": [
+        {
+          "name": "Website",
+          "href": "https://aegis-realty.vercel.app/",
+          "icon": "globe"
+        },
         {
           "name": "Source",
           "href": "https://github.com/CSC4790-Fall2025-Org/Aegis-Realty",

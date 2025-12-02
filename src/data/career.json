@@ -1,6 +1,18 @@
 {
   "career": [
     {
+      "name": "Lockheed Martin",
+      "href": "https://www.lockheedmartin.com/en-us/index.html",
+      "role": "Software Engineer Intern",
+      "location": "King of Prussia, PA",
+      "logo": "lockheed-martin-logo.webp",
+      "start": "",
+      "end": "",
+      "description": [
+        "Incoming Summer 2026"
+      ]
+    },
+    {
       "name": "Finlit",
       "href": "",
       "role": "Software Engineer",
