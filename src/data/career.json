@@ -21,7 +21,7 @@
       "start": "Sep 2025",
       "end": "Present",
       "description": [
-        "Led a 4-person team, using FastAPI and SQLAlchemy to design and implement core RESTful APIs for application services",
+        "Led a 4-person Agile team using FastAPI and SQLAlchemy to design and implement core RESTful APIs for application services",
         "Optimized PostgreSQL queries by implementing pagination via SQLAlchemy, reducing data request load times by ~15%",
         "Utilized Pydantic validation to enforce data integrity and tested API endpoints with Insomnia, ensuring reliable backend behavior"
       ]
