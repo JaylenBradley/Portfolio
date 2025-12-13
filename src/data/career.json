@@ -22,8 +22,9 @@
       "end": "Present",
       "description": [
         "Led a 4-person Agile team using FastAPI and SQLAlchemy to design and implement core RESTful APIs for application services",
-        "Optimized PostgreSQL queries by implementing pagination via SQLAlchemy, reducing data request load times by ~15%",
-        "Utilized Pydantic validation to enforce data integrity and tested API endpoints with Insomnia, ensuring reliable backend behavior"
+        "Performed endpoint testing in Insomnia to detect and resolve API logic errors, reducing overall backend errors by ∼12%",
+        "Containerized backend with Docker and implemented CI/CD, standardizing environments and reducing team setup time by ∼35%",
+        "Optimized PostgreSQL queries by implementing pagination with SQLAlchemy, reducing data request load times by ∼15%"
       ]
     },
     {
@@ -35,9 +36,8 @@
       "start": "Jan 2025",
       "end": "Present",
       "description": [
-        "Collaborated with the Pittsburgh Pirates on computer vision research, focusing on pose estimation for pitcher arm angle analysis",
-        "Implemented ViTPose object detection to extract skeletal keypoints, correlating arm angle metrics with pitching performance",
-        "Learned and implemented techniques for object detection and predictive modeling using the DETR model and PyTorch"
+        "Collaborated with the Pittsburgh Pirates on computer vision research for pitcher arm angles, achieving ∼90% model accuracy",
+        "Applied ViTPose object detection to pitching footage, estimating arm angles with a mean absolute error of 5.5° across 60+ frames"
       ]
     },
     {

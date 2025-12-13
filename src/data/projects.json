@@ -7,7 +7,6 @@
         "Developed an AI-powered career planning platform, featuring interview practice, resume optimization, and personalized roadmaps",
         "Integrated Google Gemini and GCP Speech-to-Text APIs for voice recognition, content generation, and interview feedback",
         "Designed and managed RESTful APIs and a PostgreSQL database, leveraging JSON storage for handling of AI-generated content",
-        "Leveraged Vercel Analytics to monitor frontend performance and user engagement, maintaining a ~28% bounce rate",
         "Utilized Swagger UI for API documentation and designed 10+ unit tests, reducing API-related bugs by 12%"
       ],
       "image": "/Intervu-home.png",
