@@ -98,28 +98,31 @@
       ]
     },
     {
-      "name": "FitSense",
-      "summary": "Tracking workouts, set goals, and create custom fitness plans",
+      "name": "ORDSS Writing Challenge",
+      "summary": "Interactive writing time tracker designed for Villanova's Office of Research Development & Scholarship Support",
       "description": [
-        "Implemented scalable Firebase Authentication, supporting up to 1,000 users with 99.9% uptime for seamless and secure access",
-        "Optimized Firestore operations, reducing workout plan CRUD operation latency by 15% and supporting 50+ concurrent users"
+        "Developed a writing time tracker for 50+ Villanova faculty with a fail-tolerant timer to preserve session data through interruptions",
+        "Led a 6-person Agile team, translating stakeholder needs into a 10-page roadmap to streamline Scrum sprints and task delegation"
       ],
-      "image": "/fitsense-home.jpeg",
+      "image": "/ordss_home.png",
       "tags": [
+        "Python",
+        "FastAPI",
         "JavaScript",
         "React",
+        "PostgreSQL",
         "Firebase",
         "TailwindCSS"
       ],
       "links": [
         {
           "name": "Website",
-          "href": "https://fit-sense.vercel.app/",
+          "href": "https://ordss-writing-challenge.vercel.app",
           "icon": "globe"
         },
         {
           "name": "Source",
-          "href": "https://github.com/JaylenBradley/FitSense",
+          "href": "https://github.com/Villanova-Software-Engineers/ORDSS-Writing-Challenge",
           "icon": "github"
         }
       ]

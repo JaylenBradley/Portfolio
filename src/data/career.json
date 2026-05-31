@@ -14,12 +14,12 @@
     },
     {
       "name": "Finlit",
-      "href": "",
+      "href": "https://smartfinlit.com/",
       "role": "Software Engineer",
       "location": "Villanova, PA",
-      "logo": "",
+      "logo": "/finlit_logo.png",
       "start": "Sep 2025",
-      "end": "Present",
+      "end": "May 2026",
       "description": [
         "Led a 4-person Agile team using FastAPI and SQLAlchemy to design and implement core RESTful APIs for application services",
         "Performed endpoint testing in Insomnia to detect and resolve API logic errors, reducing overall backend errors by ∼12%",
@@ -36,12 +36,13 @@
       "start": "Jan 2025",
       "end": "Present",
       "description": [
-        "Collaborated with the Pittsburgh Pirates on computer vision research for pitcher arm angles, achieving ∼90% model accuracy",
-        "Applied ViTPose object detection to pitching footage, estimating arm angles with a mean absolute error of 5.5° across 60+ frames"
+        "Developed a computer vision pipeline for the Pittsburgh Pirates to automate and predict pitcher arm angles within a 6.0° MAE",
+        "Utilized OpenAI’s CLIP model with spatial priors to automate pitcher labeling, matching manual datasets with 100% accuracy",
+        "Implemented YOLOv8-Pose tracking across 79 videos to isolate players and extract keypoint coordinates for downstream analysis"
       ]
     },
     {
-      "name": "SEO (Sponsors for Educational Opportunity",
+      "name": "SEO (Sponsors for Educational Opportunity)",
       "href": "https://tech.seo-usa.org/",
       "role": "Software Engineer Intern",
       "location": "Remote, NY",
@@ -54,6 +55,19 @@
         "Designed prompt engineering strategies for Google Gemini (Generative Language API), enhancing response accuracy by 20%",
         "Implemented Retrieval-Augmented Generation (RAG), resulting in ~16% more accurate and contextually relevant responses",
         "Completed 300+ hours of software engineering training focused on data structures, algorithms, and full-stack web development"
+      ]
+    },
+    {
+      "name": "Villanova University",
+      "href": "https://villanova-arts.cleancatalog.net/university-technology-services-uts",
+      "role": "Application Developer",
+      "location": "Villanova, PA",
+      "logo": "/villanova-university-logo.png",
+      "start": "Jan 2026",
+      "end": "Apr 2026",
+      "description": [
+        "Automated 44k+ asset audits via Python scripts, identifying 15k+ unused files in <25 minutes and reducing manual effort by ∼90%",
+        "Created a multithreaded BeautifulSoup web scraper to crawl 16k+ pages, identifying 8k+ orphaned assets by cross-referencing HTML"
       ]
     },
     {
