@@ -3,17 +3,37 @@
     {
       "name": "Villanova University",
       "href": "https://www1.villanova.edu/university.html",
-      "title": "BS in Computer Science & Statistics (with concentration in AI)",
+      "title": "Master of Science in Computer Science",
+      "logo": "/villanova-university-logo.png",
+      "start": "Aug 2027",
+      "end": "May 2028",
+      "description": [
+        "Accelerated 4+1 Combined BS/MS Program"
+      ]
+    },
+    {
+      "name": "Villanova University",
+      "href": "https://www1.villanova.edu/university.html",
+      "title": "Bachelor of Science in Computer Science (Concentration in Artificial Intelligence)",
       "logo": "/villanova-university-logo.png",
       "start": "Aug 2023",
       "end": "May 2027",
       "description": [
         "President and Founder of Villanova Software Engineers",
         "Member of Villanova Programming Team",
-        "Delta Chi Fraternity Scholarship Chair",
-        "3-time recipient of the Dean's Honor List",
-        "Honors student"
+        "Delta Chi Fraternity Scholarship Chair & Rush Committee",
+        "Member of Pi Mu Epsilon (National Mathematics Honor Society)",
+        "Core English Honor Roll (Spring 26’)",
+        "Honors Minor"
       ]
+    },
+    {
+      "name": "Villanova University",
+      "href": "https://www1.villanova.edu/university.html",
+      "title": "Bachelor of Science in Statistics ",
+      "logo": "/villanova-university-logo.png",
+      "start": "Aug 2023",
+      "end": "May 2027"
     }
   ]
 }

@@ -9,22 +9,10 @@
       "start": "",
       "end": "",
       "description": [
-        "Incoming Summer 2026"
-      ]
-    },
-    {
-      "name": "Finlit",
-      "href": "https://smartfinlit.com/",
-      "role": "Software Engineer",
-      "location": "Villanova, PA",
-      "logo": "/finlit_logo.png",
-      "start": "Sep 2025",
-      "end": "May 2026",
-      "description": [
-        "Led a 4-person Agile team using FastAPI and SQLAlchemy to design and implement core RESTful APIs for application services",
-        "Performed endpoint testing in Insomnia to detect and resolve API logic errors, reducing overall backend errors by ∼12%",
-        "Containerized backend with Docker and implemented CI/CD, standardizing environments and reducing team setup time by ∼35%",
-        "Optimized PostgreSQL queries by implementing pagination with SQLAlchemy, reducing data request load times by ∼15%"
+        "Cut manual boilerplate coding by ∼80% by designing a C#-to-TypeScript API generation script adopted program-wide across JES",
+        "Reduced service-layer code duplication by over 90% by utilizing a centralized Angular HTTP interceptor for global error handling",
+        "Created a generic JSON wrapper for 50+ endpoints to resolve Swashbuckle conflicts, standardize payloads, and enforce type safety",
+        " Modeled cloud servers in Cameo SysML, utilizing Python to dynamically optimize SWaP-C constraints for 10 core components\n"
       ]
     },
     {
@@ -36,9 +24,37 @@
       "start": "Jan 2025",
       "end": "Present",
       "description": [
-        "Developed a computer vision pipeline for the Pittsburgh Pirates to automate and predict pitcher arm angles within a 6.0° MAE",
-        "Utilized OpenAI’s CLIP model with spatial priors to automate pitcher labeling, matching manual datasets with 100% accuracy",
-        "Implemented YOLOv8-Pose tracking across 79 videos to isolate players and extract keypoint coordinates for downstream analysis"
+        "Constructed a computer vision pipeline for the Pittsburgh Pirates to automate and predict pitcher arm angles within a 6.0° MAE",
+        "Matched 395 frames with 100% accuracy by utilizing OpenAI’s CLIP model with spatial priors to automate pitcher labeling",
+        "Integrated YOLOv8-Pose tracking across 79 videos to isolate players and extract keypoint coordinates for downstream analysis\n"
+      ]
+    },
+    {
+      "name": "Finlit",
+      "href": "https://smartfinlit.com/",
+      "role": "Software Engineer",
+      "location": "Villanova, PA",
+      "logo": "/finlit_logo.png",
+      "start": "Sep 2025",
+      "end": "May 2026",
+      "description": [
+        "Delivered services to 1,000+ users across 5 organizations by leading a 4-person team to design core RESTful APIs with FastAPI",
+        "Standardized environments and reduced team setup time by ∼30% by provisioning Docker containers and implementing CI/CD",
+        "Validated 25+ REST API endpoints using Insomnia, resolving edge cases and data-handling flaws prior to production",
+        "Optimized PostgreSQL queries by implementing pagination with SQLAlchemy, reducing data request load times by ∼10%"
+      ]
+    },
+    {
+      "name": "Villanova University",
+      "href": "https://villanova-arts.cleancatalog.net/university-technology-services-uts",
+      "role": "Application Developer",
+      "location": "Villanova, PA",
+      "logo": "/villanova-university-logo.png",
+      "start": "Jan 2026",
+      "end": "Apr 2026",
+      "description": [
+        "Automated 44k+ asset audits via Python scripts, identifying 15k+ unused files in <25 minutes and reducing manual effort by ∼90%",
+        "Identified 8k+ orphaned assets across 16k+ university pages by cross-referencing HTML with a multithreaded BeautifulSoup scraper"
       ]
     },
     {
@@ -58,19 +74,6 @@
       ]
     },
     {
-      "name": "Villanova University",
-      "href": "https://villanova-arts.cleancatalog.net/university-technology-services-uts",
-      "role": "Application Developer",
-      "location": "Villanova, PA",
-      "logo": "/villanova-university-logo.png",
-      "start": "Jan 2026",
-      "end": "Apr 2026",
-      "description": [
-        "Automated 44k+ asset audits via Python scripts, identifying 15k+ unused files in <25 minutes and reducing manual effort by ∼90%",
-        "Created a multithreaded BeautifulSoup web scraper to crawl 16k+ pages, identifying 8k+ orphaned assets by cross-referencing HTML"
-      ]
-    },
-    {
       "name": "Optima",
       "href": "",
       "role": "Software Engineer",
@@ -79,8 +82,7 @@
       "start": "Jan 2025",
       "end": "May 2025",
       "description": [
-        "Developed Flask backend in collaboration with 3+ developers, enabling seamless Google Firebase integration for 3000+ users",
-        "Optimized API calls, resulting in a ~30% increase to data retrieval speed and a reduction in errors by ~20%"
+        "Structured a Flask backend and RESTful endpoints alongside 3 developers, successfully integrating Google Firebase to support 3,000+ users"
       ]
     }
   ]

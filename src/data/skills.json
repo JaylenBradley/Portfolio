@@ -1,23 +1,23 @@
 [
   { "name": "Python", "icon": "python" },
-  { "name": "JavaScript", "icon": "js" },
+  { "name": "TypeScript", "icon": "ts" },
+  { "name": "Go", "icon": "go" },
+  { "name": "C#", "icon": "csharp" },
   { "name": "SQL", "icon": "sql" },
   { "name": "HTML/CSS", "icon": "htmlcss" },
 
-  { "name": "TensorFlow", "icon": "tensorflow" },
-  { "name": "PyTorch", "icon": "pytorch" },
-  { "name": "NumPy", "icon": "numpy" },
-  { "name": "Matplotlib", "icon": "matplotlib" },
-
   { "name": "FastAPI", "icon": "fastapi" },
-  { "name": "Node.js", "icon": "node" },
-  { "name": "Express.js", "icon": "express" },
+  { "name":  "ASP.NET", "icon": "aspdotnet"},
 
   { "name": "React", "icon": "react" },
+  { "name": "Angular", "icon": "angular" },
 
   { "name": "PostgreSQL", "icon": "postgresql" },
-  { "name": "MongoDB", "icon": "mongodb" },
   { "name": "Firebase", "icon": "firebase" },
+
+  { "name": "PyTorch", "icon": "pytorch" },
+  { "name": "Numpy", "icon": "numpy" },
+  { "name": "Matplotlib", "icon": "matplotlib" },
 
   { "name": "Tailwind CSS", "icon": "tailwind" }
 ]
