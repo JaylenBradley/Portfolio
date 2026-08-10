@@ -6,8 +6,8 @@
       "role": "Software Engineer Intern",
       "location": "King of Prussia, PA",
       "logo": "/lockheed-martin-logo.png",
-      "start": "",
-      "end": "",
+      "start": "Jun 2026",
+      "end": "Aug 2026",
       "description": [
         "Cut manual boilerplate coding by ∼80% by designing a C#-to-TypeScript API generation script adopted program-wide across JES",
         "Reduced service-layer code duplication by over 90% by utilizing a centralized Angular HTTP interceptor for global error handling",
