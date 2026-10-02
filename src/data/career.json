@@ -69,19 +69,6 @@
         "Automated 44k+ asset audits via Python scripts, identifying 15k+ unused files in <25 minutes and reducing manual effort by ∼90%",
         "Created a multithreaded BeautifulSoup web scraper to crawl 16k+ pages, identifying 8k+ orphaned assets by cross-referencing HTML"
       ]
-    },
-    {
-      "name": "Optima",
-      "href": "",
-      "role": "Software Engineer",
-      "location": "Villanova, PA",
-      "logo": "",
-      "start": "Jan 2025",
-      "end": "May 2025",
-      "description": [
-        "Developed Flask backend in collaboration with 3+ developers, enabling seamless Google Firebase integration for 3000+ users",
-        "Optimized API calls, resulting in a ~30% increase to data retrieval speed and a reduction in errors by ~20%"
-      ]
     }
   ]
 }
