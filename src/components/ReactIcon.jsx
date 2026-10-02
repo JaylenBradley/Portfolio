@@ -1,28 +1,30 @@
 import {
-  FaPython, FaJs, FaReact, FaNodeJs, FaHtml5, FaDatabase, FaChartBar
+  FaPython, FaReact, FaHtml5, FaDatabase, FaChartBar
 } from "react-icons/fa";
 import {
-  SiTensorflow, SiPytorch, SiNumpy, SiMongodb, SiPostgresql,
-  SiFastapi, SiExpress, SiTailwindcss, SiFirebase,
+  SiPytorch, SiNumpy, SiPostgresql,
+  SiFastapi, SiTailwindcss, SiFirebase, SiDotnet, SiTypescript
 } from "react-icons/si";
+import {FaAngular, FaGolang} from "react-icons/fa6";
+import {TbBrandCSharp} from "react-icons/tb";
 
 const icons = {
-  tensorflow: SiTensorflow,
   pytorch: SiPytorch,
   numpy: SiNumpy,
   matplotlib: FaChartBar,
   fastapi: SiFastapi,
   postgresql: SiPostgresql,
-  mongodb: SiMongodb,
   react: FaReact,
-  express: SiExpress,
-  node: FaNodeJs,
   tailwind: SiTailwindcss,
   firebase: SiFirebase,
   python: FaPython,
-  js: FaJs,
   sql: FaDatabase,
   htmlcss: FaHtml5,
+  csharp: TbBrandCSharp ,
+  ts: SiTypescript ,
+  angular: FaAngular ,
+  go: FaGolang,
+  aspdotnet: SiDotnet
 };
 
 export default function ReactIcon({ name, className }) {

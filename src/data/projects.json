@@ -1,13 +1,29 @@
 {
   "projects": [
     {
+      "name": "Daedalus",
+      "summary": "Local-first LLM application built on Ollama",
+      "description": [
+        "Developed a local-first LLM application built on Ollama to improve self-hosted model usability while preserving data privacy",
+        "Prevented memory leaks in LLM processes using a thread-safe job manager, handling lifecycles via sync.Map and context.WithCance",
+        "Decreased latency by ∼50% by implementing real-time data streaming for concurrent model downloads and chat generation"
+      ],
+      "image": "/wip_project.png",
+      "tags": [
+        "Go",
+        "TypeScript",
+        "Angular",
+        "Sqlite",
+        "Ollama",
+        "TailwindCSS"
+      ]
+    },
+    {
       "name": "Intervu",
       "summary": "AI-powered career planning and interview platform",
       "description": [
-        "Developed an AI-powered career planning platform, featuring interview practice, resume optimization, and personalized roadmaps",
-        "Integrated Google Gemini and GCP Speech-to-Text APIs for voice recognition, content generation, and interview feedback",
-        "Designed and managed RESTful APIs and a PostgreSQL database, leveraging JSON storage for handling of AI-generated content",
-        "Utilized Swagger UI for API documentation and designed 10+ unit tests, reducing API-related bugs by 12%"
+        "Developed Built a career planning platform utilizing Google Gemini and GCP Speech-to-Text for mock interviews and resume optimization",
+        "Designed 10+ unit tests to validate endpoints and data formatting, leveraging Swagger for interactive testing and documentation"
       ],
       "image": "/Intervu-home.png",
       "tags": [
@@ -34,44 +50,12 @@
       ]
     },
     {
-      "name": "AutoAudit",
-      "summary": "AI-powered financial operations platform",
-      "description": [
-        "Developed an AI-powered expense management platform to automate expense categorization and policy enforcement",
-        "Leveraged React Query for efficient data caching, reducing request load times by ~17% and improving responsiveness",
-        "Integrated OpenAI's GPT-5-nano model for expense categorization, using a validation layer to prevent hallucination"
-      ],
-      "image": "/auto-audit-home.png",
-      "tags": [
-        "Python",
-        "FastAPI",
-        "JavaScript",
-        "React",
-        "PostgreSQL",
-        "OpenAI",
-        "Firebase",
-        "TailwindCSS"
-      ],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://use-autoaudit.vercel.app",
-          "icon": "globe"
-        },
-        {
-          "name": "Source",
-          "href": "https://github.com/JaylenBradley/AutoAudit",
-          "icon": "github"
-        }
-      ]
-    },
-    {
       "name": "Aegis Realty",
       "summary": "AI-powered real estate investment and property management platform",
       "description": [
         "Integrated Google Gemini to analyze property data and generate plain-language investment evaluations using Cap Rate metrics",
-        "Developed a SQLAlchemy script to extract, transform, and load RentCast API data into PostgreSQL, automating data ingestion",
-        "Optimized queries for efficient pagination and implemented caching with TanStack Query, reducing average load times by ~25%"
+        "Reduced average load times by ∼20% by configuring stale-while-revalidate caching with TanStack Query to cut redundant API calls",
+        "Extracted, transformed, and loaded 10,000+ property records into PostgreSQL via paginated API requests and Python scripting"
       ],
       "image": "/aegis-realty-home.png",
       "tags": [
@@ -101,8 +85,8 @@
       "name": "ORDSS Writing Challenge",
       "summary": "Interactive writing time tracker designed for Villanova's Office of Research Development & Scholarship Support",
       "description": [
-        "Developed a writing time tracker for 50+ Villanova faculty with a fail-tolerant timer to preserve session data through interruptions",
-        "Led a 6-person Agile team, translating stakeholder needs into a 10-page roadmap to streamline Scrum sprints and task delegation"
+        "Devised a fail-tolerant writing time tracker for 50+ Villanova faculty to preserve session data through unexpected interruptions",
+        "Spearheaded Agile sprints and task delegation, translating stakeholder needs into a 10-page roadmap and streamlining development"
       ],
       "image": "/ordss_home.png",
       "tags": [
@@ -115,11 +99,6 @@
         "TailwindCSS"
       ],
       "links": [
-        {
-          "name": "Website",
-          "href": "https://ordss-writing-challenge.vercel.app",
-          "icon": "globe"
-        },
         {
           "name": "Source",
           "href": "https://github.com/Villanova-Software-Engineers/ORDSS-Writing-Challenge",
